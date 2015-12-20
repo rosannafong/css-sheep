@@ -1,0 +1,842 @@
+/*Table of contents
+1. Breakpoints
+    1.1 Small screens
+    1.2 Medium screens
+    1.3 Large screens
+    1.4 XLarge screens
+=====================================================================================================
+*/
+/*1. Breakpoints
+=====================================================================================================*/
+/*1.1 Small screens
+------------------------*/
+/*1.2 Medium screens
+------------------------*/
+/*1.3 Large screens
+------------------------*/
+/*1.4 XLarge screens
+------------------------*/
+/* CSS Animation Test Shapes - Colours - Table of Contents
+------------------------------------------------------------
+1. Base colours
+2. Tints
+	2.1 Dark blue tints
+	2.2 Ocean blue tints
+	2.3 Blue tints
+	2.4 Black tints
+=================================================================================================
+*/
+/*1. Base colours
+------------------------------------------------------------------------------------------------*/
+/*2. Tints
+------------------------------------------------------------------------------------------------*/
+/*2.1 Dark blue tints*/
+/*2.2 Ocean blue tints*/
+/*2.2 Blue tints*/
+/*2.4 Black tints*/
+/*===================================================================================================
+Susy
+=====================================================================================================*/
+/* line 21, ../../../../../../../Applications/Prepros.app/Contents/Resources/app/ruby/ruby_gems/gems/susy-2.2.5/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/helpers/_grid.scss */
+.container {
+  max-width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0 1em;
+}
+/* line 12, ../../../../../../../Applications/Prepros.app/Contents/Resources/app/ruby/ruby_gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media screen and (min-width: 25em) {
+  /* line 19, ../sass/helpers/_grid.scss */
+  .container {
+    max-width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Applications/Prepros.app/Contents/Resources/app/ruby/ruby_gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media screen and (min-width: 40.063em) {
+  /* line 19, ../sass/helpers/_grid.scss */
+  .container {
+    max-width: 46.875em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Applications/Prepros.app/Contents/Resources/app/ruby/ruby_gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media screen and (min-width: 64.063em) {
+  /* line 19, ../sass/helpers/_grid.scss */
+  .container {
+    max-width: 62.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Applications/Prepros.app/Contents/Resources/app/ruby/ruby_gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+@media screen and (min-width: 90.063em) {
+  /* line 19, ../sass/helpers/_grid.scss */
+  .container {
+    max-width: 75em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Applications/Prepros.app/Contents/Resources/app/ruby/ruby_gems/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/* line 37, ../sass/helpers/_grid.scss */
+.row {
+  display: block;
+}
+@media screen and (min-width: 64.063em) {
+  /* line 37, ../sass/helpers/_grid.scss */
+  .row {
+    margin: 0 -0.6em;
+  }
+}
+
+/* line 43, ../sass/helpers/_grid.scss */
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  box-sizing: border-box;
+  clear: both;
+}
+
+/* line 51, ../sass/helpers/_grid.scss */
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  min-height: 1px;
+  margin-bottom: 1.75em;
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 66, ../sass/helpers/_grid.scss */
+  .col-1 {
+    width: 8.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 71, ../sass/helpers/_grid.scss */
+  .col-2 {
+    width: 16.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 76, ../sass/helpers/_grid.scss */
+  .col-3 {
+    width: 25%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 81, ../sass/helpers/_grid.scss */
+  .col-4 {
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 86, ../sass/helpers/_grid.scss */
+  .col-5 {
+    width: 41.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 91, ../sass/helpers/_grid.scss */
+  .col-6 {
+    width: 50%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 96, ../sass/helpers/_grid.scss */
+  .col-7 {
+    width: 58.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 101, ../sass/helpers/_grid.scss */
+  .col-8 {
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 106, ../sass/helpers/_grid.scss */
+  .col-9 {
+    width: 75%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 111, ../sass/helpers/_grid.scss */
+  .col-10 {
+    width: 83.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 116, ../sass/helpers/_grid.scss */
+  .col-11 {
+    width: 91.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+@media screen and (min-width: 64.063em) {
+  /* line 121, ../sass/helpers/_grid.scss */
+  .col-12 {
+    width: 100%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+}
+
+/* CSS Animation Test Shapes - Typography - Table of Contents
+---------------------------------------------------------------
+1. Vertical rhythm
+2. Font family
+3. Links
+4. Labels
+=====================================================================================================
+*/
+/*1. Vertical rhythm
+------------------------------------------------------------------------------------------------*/
+/* line 12, ../sass/helpers/_typography.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 15, ../sass/helpers/_typography.scss */
+body {
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
+/* line 19, ../sass/helpers/_typography.scss */
+p,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+td,
+th,
+textarea {
+  font-size: 1em;
+  /* equiv 16px */
+  line-height: 1.5;
+  margin: 1.5em 0;
+}
+
+/* line 32, ../sass/helpers/_typography.scss */
+h1,
+.h1-like {
+  font-size: 2.9375em;
+  /* equiv 47px */
+  line-height: 1.0212;
+  margin: 1.0212em 0 .5106em 0;
+}
+
+/* line 38, ../sass/helpers/_typography.scss */
+h2,
+.h2-like {
+  font-size: 2.4375em;
+  /* equiv 39px */
+  line-height: 1.2308;
+  margin: 1.2308em 0 .6154em 0;
+}
+
+/* line 44, ../sass/helpers/_typography.scss */
+h3,
+.h3-like {
+  font-size: 2.0625em;
+  /* equiv 33px */
+  line-height: 1.4546;
+  margin: 1.4546em 0 .7273em 0;
+}
+
+/* line 50, ../sass/helpers/_typography.scss */
+h4,
+.h4-like {
+  font-size: 1.6875em;
+  /* equiv 27px */
+  line-height: 1.7778;
+  margin: 1.7778em 0 .8889em 0;
+}
+
+/* line 56, ../sass/helpers/_typography.scss */
+h5,
+.h5-like {
+  font-size: 1.4375em;
+  /* equiv 23px */
+  line-height: 1.0435;
+  margin: 2.087em 0  1.0435em 0;
+}
+
+/* line 62, ../sass/helpers/_typography.scss */
+h6,
+.h6-like {
+  font-size: 1.1875em;
+  /* equiv 19px */
+  line-height: 1.2632;
+  margin: 2.5264em 0  1.2632em 0;
+}
+
+/* line 68, ../sass/helpers/_typography.scss */
+.smaller {
+  font-size: .75em;
+  /* equiv 12px */
+  line-height: 2;
+  margin: 2em 0  2em 0;
+}
+
+/* line 73, ../sass/helpers/_typography.scss */
+.small {
+  font-size: .875em;
+  /* equiv 14px */
+  line-height: 1.7143;
+  margin: 1.7143em 0  1.7143em 0;
+}
+
+/* line 78, ../sass/helpers/_typography.scss */
+.big {
+  font-size: 1.125em;
+  /* equiv 18px */
+  line-height: 1.3333;
+  margin: 1.3333em 0  1.3333em 0;
+}
+
+/* line 83, ../sass/helpers/_typography.scss */
+.bigger {
+  font-size: 1.25em;
+  /* equiv 20px */
+  line-height: 1.2;
+  margin: 1.2em 0  1.2em 0;
+}
+
+/* line 88, ../sass/helpers/_typography.scss */
+.biggest {
+  font-size: 1.375em;
+  /* equiv 22px */
+  line-height: 1.0909;
+  margin: 1.0909em 0  1.0909em 0;
+}
+
+/* avoid collapsing margins
+you might need this, depending on your design
+*/
+/*
+h1:first-child, 
+h2:first-child, 
+h3:first-child, 
+h4:first-child, 
+h5:first-child, 
+h6:first-child {
+    margin-top: 0;
+}
+*/
+/* avoid last-child bottom margin */
+/* line 107, ../sass/helpers/_typography.scss */
+ul:last-child,
+ol:last-child,
+dl:last-child,
+blockquote:last-child,
+pre:last-child,
+table:last-child {
+  margin-bottom: 0;
+}
+
+/* avoid supp margin on nested elements */
+/* line 118, ../sass/helpers/_typography.scss */
+li p,
+li ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* you shall not pass */
+/* line 124, ../sass/helpers/_typography.scss */
+textarea,
+table,
+td,
+th,
+code,
+pre,
+samp,
+div,
+p {
+  word-wrap: break-all;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  -o-hyphens: manual;
+  hyphens: manual;
+}
+
+/* line 140, ../sass/helpers/_typography.scss */
+code,
+pre,
+samp {
+  white-space: pre-wrap;
+  font-family: consolas, 'DejaVu Sans Mono', courier, monospace;
+}
+
+/* line 146, ../sass/helpers/_typography.scss */
+code {
+  line-height: 1;
+}
+
+/* line 149, ../sass/helpers/_typography.scss */
+table {
+  margin-bottom: 1.5em;
+}
+
+/*2. Font family
+------------------------------------------------------------------------------------------------*/
+/* line 155, ../sass/helpers/_typography.scss */
+html, body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* line 159, ../sass/helpers/_typography.scss */
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*3. Links
+------------------------------------------------------------------------------------------------*/
+/* line 164, ../sass/helpers/_typography.scss */
+a {
+  color: #4d6473;
+  text-decoration: none;
+}
+
+/* line 168, ../sass/helpers/_typography.scss */
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* line 172, ../sass/helpers/_typography.scss */
+a:focus {
+  color: black;
+  outline: 1px solid #4d6473;
+  outline-offset: 2px;
+}
+
+/*4. Labels
+------------------------------------------------------------------------------------------------*/
+/* line 180, ../sass/helpers/_typography.scss */
+p .label {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+/* CSS Animation Test Shapes - Header styles - Table of Contents
+------------------------------------------------------------
+1. Header styles
+=================================================================================================
+*/
+/*1. Header styles
+------------------------------------------------------------------------------------------------*/
+/* line 9, ../sass/layout/_header.scss */
+header {
+  background-color: #254159;
+  color: white;
+}
+
+/* CSS Animation Test Shapes - Body styles - Table of Contents
+------------------------------------------------------------
+1. Demo container
+=================================================================================================
+*/
+/*1. Demo container
+------------------------------------------------------------------------------------------------*/
+/* line 9, ../sass/layout/_body.scss */
+.demo-box {
+  padding: 3em;
+  text-align: center;
+}
+
+/* line 13, ../sass/layout/_body.scss */
+.demo-box > div {
+  margin: 0 auto;
+}
+
+/* CSS Animation Test Shapes - Footer styles - Table of Contents
+------------------------------------------------------------
+1. Sticky footer
+=================================================================================================
+*/
+/*1. Sticky footer
+------------------------------------------------------------------------------------------------*/
+/* line 9, ../sass/layout/_footer.scss */
+* {
+  margin: 0;
+}
+
+/* line 12, ../sass/layout/_footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 15, ../sass/layout/_footer.scss */
+.page-wrap {
+  min-height: 100%;
+  padding-bottom: 3em;
+}
+
+/* line 19, ../sass/layout/_footer.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+  height: auto;
+}
+
+/* line 24, ../sass/layout/_footer.scss */
+footer {
+  border-top: 1px dotted #8c8c88;
+  height: auto;
+}
+
+/* CSS Animation Test Shapes - Shapes - Table of Contents
+----------------------------------------------------------
+1. Default shape
+2. Square to Circle
+3. Sheep
+=================================================================================================
+*/
+/*1. Square to Circle
+------------------------------------------------------------------------------------------------*/
+/* line 10, ../sass/components/_shapes.scss */
+.shape {
+  display: block;
+  margin: 2em auto;
+  position: relative;
+  text-align: center;
+}
+
+/*2. Square to Circle
+------------------------------------------------------------------------------------------------*/
+/* line 19, ../sass/components/_shapes.scss */
+.squareToCircle {
+  width: 200px;
+  height: 200px;
+  animation: square-to-circle 2s 1s infinite alternate;
+  outline: 1px solid transparent;
+}
+
+@keyframes square-to-circle {
+  0% {
+    border-radius: 0;
+    background-color: #4d6473;
+    transform: rotate(0deg);
+  }
+  25% {
+    border-radius: 50% 0 0 0;
+    background-color: #254159;
+    transform: rotate(45deg);
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background-color: #101926;
+    transform: rotate(90deg);
+  }
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background-color: #4d6473;
+    transform: rotate(135deg);
+  }
+  100% {
+    border-radius: 50%;
+    background-color: #254159;
+    transform: rotate(180deg);
+  }
+}
+/*3. Sheep
+------------------------------------------------------------------------------------------------*/
+/* line 56, ../sass/components/_shapes.scss */
+.sheep .ear {
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzNmM2YzZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #3f3f3f 10px, #000000 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #3f3f3f 10px, #000000 100px);
+  background-image: radial-gradient(45px 45px, #3f3f3f 10px, #000000 100px);
+  border: 1.5em solid black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+}
+/* line 65, ../sass/components/_shapes.scss */
+.sheep .left-ear {
+  transform: translate(172px, 10px);
+}
+/* line 68, ../sass/components/_shapes.scss */
+.sheep .right-ear {
+  transform: translate(30px, 10px);
+}
+/* line 71, ../sass/components/_shapes.scss */
+.sheep .head {
+  width: 180px;
+  height: 180px;
+  background-color: black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: #3f3f3f 2px 2px 10px;
+  -webkit-box-shadow: #3f3f3f 2px 2px 10px;
+  box-shadow: #3f3f3f 2px 2px 10px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzNmM2YzZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #3f3f3f 10px, #000000 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #3f3f3f 10px, #000000 100px);
+  background-image: radial-gradient(45px 45px, #3f3f3f 10px, #000000 100px);
+  outline: 1px solid transparent;
+  transform: translate(70px, 30px);
+}
+/* line 80, ../sass/components/_shapes.scss */
+.sheep .head .eye {
+  width: 80px;
+  height: 80px;
+  background-color: #d9d9d9;
+  display: inline-block;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #ffffff 10px, #000000 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #ffffff 10px, #000000 100px);
+  background-image: radial-gradient(45px 45px, #ffffff 10px, #000000 100px);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 0.5em solid black;
+  animation: rotate-shape 2s 0s infinite alternate;
+}
+/* line 90, ../sass/components/_shapes.scss */
+.sheep .head .eye .eye-inner {
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #000000 10px, #ffffff 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #000000 10px, #ffffff 100px);
+  background-image: radial-gradient(45px 45px, #000000 10px, #ffffff 100px);
+  margin: 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  transform: translateY(30%);
+}
+/* line 100, ../sass/components/_shapes.scss */
+.sheep .head .right-eye {
+  transform: translate(10px, -55px);
+}
+/* line 103, ../sass/components/_shapes.scss */
+.sheep .head .left-eye {
+  transform: translate(90px, 25px);
+}
+/* line 106, ../sass/components/_shapes.scss */
+.sheep .head .nostril {
+  width: 10px;
+  height: 15px;
+  background-color: black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #000000 10px, #ffffff 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #000000 10px, #ffffff 100px);
+  background-image: radial-gradient(45px 45px, #000000 10px, #ffffff 100px);
+  border: 2px solid #8c8c88;
+  -moz-box-shadow: #8c8c88 2px 2px 10px;
+  -webkit-box-shadow: #8c8c88 2px 2px 10px;
+  box-shadow: #8c8c88 2px 2px 10px;
+}
+/* line 115, ../sass/components/_shapes.scss */
+.sheep .head .right-nostril {
+  transform: translate(40px, 30px);
+}
+/* line 118, ../sass/components/_shapes.scss */
+.sheep .head .left-nostril {
+  transform: translate(130px, 15px);
+}
+/* line 122, ../sass/components/_shapes.scss */
+.sheep .body {
+  width: 320px;
+  height: 340px;
+  background-color: #d9d9d9;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzhjOGM4OCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q5ZDlkOSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #8c8c88 10px, #d9d9d9 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #8c8c88 10px, #d9d9d9 100px);
+  background-image: radial-gradient(45px 45px, #8c8c88 10px, #d9d9d9 100px);
+  -moz-box-shadow: #3f3f3f 2px 2px 10px;
+  -webkit-box-shadow: #3f3f3f 2px 2px 10px;
+  box-shadow: #3f3f3f 2px 2px 10px;
+  z-index: 1;
+  animation: bobbing 2s 1s infinite alternate;
+}
+/* line 132, ../sass/components/_shapes.scss */
+.sheep .leg {
+  width: 50px;
+  height: 110px;
+  background-color: black;
+  -moz-border-radius: 35% 35% 50%;
+  -webkit-border-radius: 35%;
+  border-radius: 35% 35% 50%;
+  display: inline-block;
+  position: absolute;
+  -moz-box-shadow: #3f3f3f 2px 2px 10px;
+  -webkit-box-shadow: #3f3f3f 2px 2px 10px;
+  box-shadow: #3f3f3f 2px 2px 10px;
+}
+/* line 141, ../sass/components/_shapes.scss */
+.sheep .back-left-leg {
+  transform: scaleX(-1) rotate(7deg) translate(-105px, -90px);
+  z-index: -1;
+}
+/* line 145, ../sass/components/_shapes.scss */
+.sheep .back-right-leg {
+  transform: rotate(7deg) translate(-150px, -90px);
+  z-index: -1;
+}
+/* line 149, ../sass/components/_shapes.scss */
+.sheep .front-left-leg {
+  transform: rotate(-5deg) scaleX(-1) translate(-60px, -75px);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNmM2YzZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #000000 10px, #3f3f3f 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #000000 10px, #3f3f3f 100px);
+  background-image: radial-gradient(45px 45px, #000000 10px, #3f3f3f 100px);
+}
+/* line 153, ../sass/components/_shapes.scss */
+.sheep .front-right-leg {
+  transform: rotate(5deg) translate(-105px, -70px);
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNmM2YzZiIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #000000 10px, #3f3f3f 100px);
+  background-image: -webkit-radial-gradient(45px 45px, #000000 10px, #3f3f3f 100px);
+  background-image: radial-gradient(45px 45px, #000000 10px, #3f3f3f 100px);
+}
+
+/* line 158, ../sass/components/_shapes.scss */
+.sheep > div {
+  margin: 0 auto;
+}
+
+@keyframes rotate-shape {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes bobbing {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, 5px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(0, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

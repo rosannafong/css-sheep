@@ -1,0 +1,27 @@
+/* CSS Animation Test Shapes - Footer styles - Table of Contents
+------------------------------------------------------------
+1. Sticky footer
+=================================================================================================
+*/
+
+/*1. Sticky footer
+------------------------------------------------------------------------------------------------*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  padding-bottom: 3em; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+  height: auto;
+}
+footer {
+  border-top: 1px dotted $grey;
+  height: auto; 
+}

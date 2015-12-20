@@ -1,0 +1,27 @@
+/*Table of contents
+1. Footer styles
+
+/*1. Footer styles
+=====================================================================================================*/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  padding-bottom: 5em;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+  height: auto;
+}
+
+footer {
+  height: 5em;
+}

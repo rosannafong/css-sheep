@@ -1,0 +1,185 @@
+/* CSS Animation Test Shapes - Shapes - Table of Contents
+----------------------------------------------------------
+1. Default shape
+2. Square to Circle
+3. Sheep
+=================================================================================================
+*/
+/*1. Square to Circle
+------------------------------------------------------------------------------------------------*/
+.shape {
+  display: block;
+  margin: 2em auto;
+  position: relative;
+  text-align: center;
+}
+
+/*2. Square to Circle
+------------------------------------------------------------------------------------------------*/
+.squareToCircle {
+  width: 200px;
+  height: 200px;
+  animation: square-to-circle 2s 1s infinite alternate;
+  outline: 1px solid transparent;
+}
+@keyframes square-to-circle {
+  0%{
+    border-radius: 0;
+    background-color: $blue;
+    transform: rotate(0deg);
+  }
+  25%{
+    border-radius: 50% 0 0 0;
+    background-color: $oceanBlue;
+    transform: rotate(45deg);
+  }
+  50%{
+    border-radius: 50% 50% 0 0;
+    background-color: $darkBlue;
+    transform: rotate(90deg);
+  }
+  75%{
+    border-radius: 50% 50% 50% 0;
+    background-color: $blue;
+    transform: rotate(135deg);
+  }
+  100%{
+    border-radius: 50%;
+    background-color: $oceanBlue;
+    transform: rotate(180deg);
+  }
+}
+
+/*3. Sheep
+------------------------------------------------------------------------------------------------*/
+.sheep {
+  .ear {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    @include background-image(radial-gradient(45px 45px, $blackTint25 10px, black 100px));
+    border: 1.5em solid black;
+    @include border-radius(50%);
+    position: absolute;
+  }
+  .left-ear {
+    transform: translate(172px, 10px);
+  }
+  .right-ear {
+    transform: translate(30px, 10px);
+  }
+  .head {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    @include border-radius(50%);
+    @include box-shadow($blackTint25 2px 2px 10px);
+    @include background-image(radial-gradient(45px 45px, $blackTint25 10px, black 100px));
+    outline: 1px solid transparent;
+    transform: translate(70px, 30px);
+    .eye {
+      width: 80px;
+      height: 80px;
+      background-color: $lightGrey;
+      display: inline-block;
+      @include background-image(radial-gradient(45px 45px, white 10px, black 100px));
+      @include border-radius(50%);
+      border: 0.5em solid black;
+      animation: rotate-shape 2s 0s infinite alternate;
+
+      .eye-inner {
+        width: 45px;
+        height: 45px;
+        background-color: black;
+        @include background-image(radial-gradient(45px 45px, black 10px, white 100px));
+        margin: 0 auto;
+        @include border-radius(50%);
+        transform: translateY(30%);
+      }
+    }
+    .right-eye {
+      transform: translate(10px, -55px);
+    }
+    .left-eye {
+      transform: translate(90px, 25px);
+    }
+    .nostril {
+      width: 10px;
+      height: 15px;
+      background-color: black;
+      @include border-radius(50%);
+      @include background-image(radial-gradient(45px 45px, black 10px, white 100px));
+      border: 2px solid $grey;
+      @include box-shadow($grey 2px 2px 10px);
+    }
+    .right-nostril {
+      transform: translate(40px, 30px);
+    }
+    .left-nostril {
+      transform: translate(130px, 15px);
+    }
+  }
+  .body {
+    width: 320px;
+    height: 340px;
+    background-color: $lightGrey;
+    @include border-radius(50%);
+    @include background-image(radial-gradient(45px 45px, $grey 10px, $lightGrey 100px));
+    @include box-shadow($blackTint25 2px 2px 10px);
+    z-index: 1;
+    animation: bobbing 2s 1s infinite alternate;
+  }
+  .leg {
+    width: 50px;
+    height: 110px;
+    background-color: black;
+    @include border-radius(35% 35% 50%);
+    display: inline-block;
+    position: absolute;
+    @include box-shadow($blackTint25 2px 2px 10px);
+  }
+  .back-left-leg {
+    transform: scaleX(-1) rotate(7deg) translate(-105px, -90px);
+    z-index: -1;
+  }
+  .back-right-leg {
+    transform: rotate(7deg) translate(-150px, -90px);
+    z-index: -1;
+  }
+  .front-left-leg {
+    transform: rotate(-5deg) scaleX(-1) translate(-60px, -75px);
+    @include background-image(radial-gradient(45px 45px, black 10px, $blackTint25 100px));
+  }
+  .front-right-leg {
+    transform: rotate(5deg) translate(-105px, -70px);
+    @include background-image(radial-gradient(45px 45px, black 10px, $blackTint25 100px));
+  }
+}
+.sheep > div {
+  margin: 0 auto;
+}
+@keyframes rotate-shape {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+@keyframes bobbing {
+  0%{
+    transform: translate(0, 0);
+  }
+  25%{
+    transform: translate(0, 5px);
+  }
+  50%{
+    transform: translate(0, 0);
+  }
+  75%{
+    transform: translate(0, 5px);
+  }
+  100%{
+    transform: translate(0, 0);
+  }
+}
