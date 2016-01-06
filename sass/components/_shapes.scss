@@ -1,11 +1,10 @@
 /* CSS Animation Test Shapes - Shapes - Table of Contents
 ----------------------------------------------------------
 1. Default shape
-2. Square to Circle
-3. Sheep
+2. Sheep
 =================================================================================================
 */
-/*1. Square to Circle
+/*1. Default shape
 ------------------------------------------------------------------------------------------------*/
 .shape {
   display: block;
@@ -14,43 +13,7 @@
   text-align: center;
 }
 
-/*2. Square to Circle
-------------------------------------------------------------------------------------------------*/
-.squareToCircle {
-  width: 200px;
-  height: 200px;
-  animation: square-to-circle 2s 1s infinite alternate;
-  outline: 1px solid transparent;
-}
-@keyframes square-to-circle {
-  0%{
-    border-radius: 0;
-    background-color: $blue;
-    transform: rotate(0deg);
-  }
-  25%{
-    border-radius: 50% 0 0 0;
-    background-color: $oceanBlue;
-    transform: rotate(45deg);
-  }
-  50%{
-    border-radius: 50% 50% 0 0;
-    background-color: $darkBlue;
-    transform: rotate(90deg);
-  }
-  75%{
-    border-radius: 50% 50% 50% 0;
-    background-color: $blue;
-    transform: rotate(135deg);
-  }
-  100%{
-    border-radius: 50%;
-    background-color: $oceanBlue;
-    transform: rotate(180deg);
-  }
-}
-
-/*3. Sheep
+/*2. Sheep
 ------------------------------------------------------------------------------------------------*/
 .sheep {
   .ear {
@@ -139,19 +102,17 @@
     @include box-shadow($blackTint25 2px 2px 10px);
   }
   .back-left-leg {
-    transform: scaleX(-1) rotate(7deg) translate(-105px, -90px);
-    z-index: -1;
+    transform: scaleX(-1) rotate(45deg) translate(-105px, 90px);
   }
   .back-right-leg {
-    transform: rotate(7deg) translate(-150px, -90px);
-    z-index: -1;
+    transform: rotate(45deg) translate(-140px, 120px);
   }
   .front-left-leg {
-    transform: rotate(-5deg) scaleX(-1) translate(-60px, -75px);
+    transform: rotate(-5deg) scaleX(-1) translate(-60px, 70px);
     @include background-image(radial-gradient(45px 45px, black 10px, $blackTint25 100px));
   }
   .front-right-leg {
-    transform: rotate(5deg) translate(-105px, -70px);
+    transform: rotate(5deg) translate(-105px, 70px);
     @include background-image(radial-gradient(45px 45px, black 10px, $blackTint25 100px));
   }
 }
